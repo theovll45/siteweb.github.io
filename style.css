@@ -1,0 +1,70 @@
+section>img{
+    width: 30vw;
+}
+
+
+aside {
+    width: 15%;
+    padding-left: .5rem;
+    margin-left: .1rem;
+    float: right;
+    border-style:groove;
+    padding: 1vw;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    margin:1rem;
+}
+
+section{
+    display: flex;
+    flex-basis: 80%;
+    flex-wrap: nowrap;
+    margin:1vw;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header>img{
+    flex-basis:100%;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header li{
+    list-style-type: none;
+    padding-inline-start: 7vw;
+    padding-inline-end: 7vw;
+    border-style: groove;
+    margin-top: 3vw;
+}
+
+aside li{
+    list-style-type: none;
+    text-align: left;
+    border-style: groove;
+    margin-inline-end: 1vw;
+}
+
+footer{
+    border-style: groove;
+}
+
+.lux, .swain{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1vw
+}
+
+aside>a{
+    border-style: groove;
+    background-color: gray;
+}
