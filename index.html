@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formulaire.css">    
+    <title>formulaire</title>
+  </head>
+  <body>
+    <header><h1>Soirée Bowling</h1></header>
+    <form method="post" action="traitement.php">
+        <fieldset id="identifier"> 
+       <legend>Identité</legend>
+        <div>
+            <label for="prenom">Mon Prénom</label> 
+            <input type="text" name="prenom" id="prenom" required>
+        </div>
+        <div>
+            <label for="groupe">Mon Groupe</label>
+            <select name="groupe" id="groupe">
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="LP">LP</option>
+                <option value="autre">autre</option>
+            </select>
+        </div> 
+        <div>
+            <label for="mail">Mon adresse mail</label> 
+            <input type="text" name="mail" id="mail" required>
+        </div>
+        <div>
+            <label for="mdp">Mon mot de passe</label> 
+            <input type="text" name="mdp" id="mdp" required>
+        </div>
+         </fieldset>
+         <fieldset>
+        <legend> J'informe</legend>
+        <p>Coche les aliments que vous aimez manger : </p>
+        <ul>
+          <li><input type="checkbox" name="frites" id="frites"> <label for="frites">Frites</label></li>
+          <li><input type="checkbox" name="steak" id="steak"> <label for="steak">Steak haché</label></li>
+          <li><input type="checkbox" name="epinard" id="epinard"> <label for="epinard">Epinard</label></li>
+          <li><input type="checkbox" name="huitres" id="huitres"> <label for="huitres">Huitres </label></li>
+        </ul>
+        <p>Veuillez indiquer votre pointure : </p>
+        <ul>
+          <li><input type="checkbox" name="42" id="42"> <label for="42">42</label></li>
+          <li><input type="checkbox" name="43" id="43"> <label for="43">43</label></li>
+          <li><input type="checkbox" name="44" id="44"> <label for="44">44</label></li>
+          <li><input type="checkbox" name="45" id="45"> <label for="45">45 </label></li>
+        </ul>
+        
+        <div>       
+            <label for="message">Laisse nous un message </label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+         </fieldset>
+         <div>
+            <input type="submit" name="envoyer" value="Je m'inscris">
+            <input type="reset" name="reset" value="Je réinitialise le formulaire">
+     </div>
+  </body>
