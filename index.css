@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(230, 246, 253);
+  }
+  
+  header{
+    text-align: center;
+    background-color: rgb(63, 117, 153);
+    border: medium solid gray;
+    border-radius: 0.5em;
+    margin: 1em;
+  }
+  form{
+    margin: 1em;
+  }
+  fieldset, div{
+   margin: 1em 0;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  #identifier legend{
+    font-weight: bold;
+  }
+  #identifier div{
+    display: flex;
+  }
+  #identifier label{
+    flex-basis: 10em;
+    flex-grow: 0;
+  }
+  
+  p{
+    margin: 1em 0 0em 0;
+  }
+  fieldset div{
+    margin: 0.5em;
+    padding:0.5em;
+  }
+  textarea{
+    width: 20%;
+    display:block;
+    height: 50%;
+  }
+  span{
+    display: block;
+    font-style: italic;
+    color: gray;
+    font-size: xx-small;
+    margin-bottom: 0;
+  }
+  ul{
+    margin-top: 0;
+  }
+  
